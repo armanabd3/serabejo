@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center {
+    align-items: center;
+}
+.d-block {
+    display: block;
+}
+.justify-content-end {
+    justify-content: flex-end;
+}
+.justify-center {
+    justify-content: center;
+}
+.text-center {
+    text-align: center;
+}
+.m-auto {
+    margin: auto
+}
+.w-100 {
+    width: 100%;
+}
+.h-100 {
+    height: 100%;
+}

@@ -1,0 +1,584 @@
+ul,ol {
+    list-style-type: none;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+h2,h5,h6, p{
+    font-family: 'Open sans' , sans-serif;
+}
+h1 {
+    font-size: 62px;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 28px;
+    color: #4c76ff;
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 16px;
+    color: #000;
+}
+h6 {
+    font-size: 15px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+pre {
+    display: inline-block;
+    color: #4c76ff;;
+}
+.overlay h6, i, b, p {
+    color: #fff;
+}
+/* common css end */
+/* banner css start */
+#banner {
+    background: url(../image/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+#banner::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    inset: 0;
+    opacity: 0.70;
+    z-index: -1;
+}
+#banner nav {
+    height: 60px;
+}
+#banner nav .logo {
+    width: 30%;
+    height: 100%;
+}
+#banner nav .logo h4 {
+    font-weight: 800;
+    font-size: 21px;
+}
+#banner nav .logo p {
+    background: none;
+    border: none;
+    border-left: 1px solid #154972;
+    margin-left: 33px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 14px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 100;
+}
+#banner nav .menu {
+    width: 70%;
+}
+#banner nav .menu ul li {
+    padding: 0 17px;
+}
+#banner nav .menu ul li:hover a {
+    border-top: 2px solid #4c76ff;
+}
+#banner .details {
+    height: 440px;
+    align-items: center;
+}
+#banner .details .text{
+    width: 70%;
+    height: 240px;
+    padding-left: 60px;
+}
+#banner .details .picture {
+    width: 30%;
+    height: 400px;
+}
+#banner .details .picture .phone {
+    width: 205px;
+    margin: auto;
+}
+#banner .details .picture .phone img {
+    position: absolute;
+}
+#banner .details .picture .phone .overlay {
+    position: relative;
+    top: 49px;
+    right: -12px;
+}
+#banner h1,
+#banner h2,
+#banner h3,
+#banner h4,
+#banner p{
+    color: #fff;
+}
+#banner h1 {
+    font-size: 62px;
+    font-weight: 900;
+    width: 100%;
+}
+#banner .details .text h2,h3 {
+    font-size: 48px;
+    font-weight: 600;
+}
+#banner .text h3{
+    color: #4c76ff;
+}
+#banner .text p {
+    font-weight: 600;
+    padding: 32px 0;
+    width: 100%;
+}
+#banner .text a {
+    color: #fff;
+    opacity: 30%;
+}
+#banner .link a {
+    padding: 9px;
+}
+#banner .text .link a:hover {
+    opacity: 100%;
+}
+/* banner css start */
+/* features css start */
+#features {
+    height: 434px;
+    padding: 78px;
+    background-color: #efefef;
+}
+#features .features_headline img {
+    padding: 25px 0;
+}
+#features .features_headline h3 { 
+    font-size: 28px;
+    font-family: 'Lato' , sans-serif;
+    color: #4c76ff;
+    font-weight: 900;
+    display: block;
+    /* fontsize working as banner */
+}
+#features .features_details {
+    padding: 35px 0;
+}
+#features .features_details .features_text {
+    width: 33.33%;
+}
+#features .features_text .logo {
+    width: 10%;
+}
+#features .features_text .logo_text {
+    width: 90%;
+}
+#features .features_text .logo i {
+    color: #4c76ff;
+    border: 2px solid #4c76ff;
+    border-radius: 50%;
+    padding: 5px 5px;
+}
+#features h5 {
+    color: #000;
+    font-weight: 500;
+}
+#features p {
+    font-size: 11px;
+    color: #062033;
+    width: 300px;
+    padding: 18px 0;
+}
+#features_two h6{
+    font-size: 15px;
+    text-align: center;
+    padding: 80px 200px;
+}
+#features_two .accusan {
+    padding: 0 0 80px 0;
+}
+#features_two .accusan_timer {
+    width: 30%;
+}
+#features_two .accusan_phone {
+    width: 40%
+}
+#features_two .accusan_timer .accusan_timer_details {
+    padding: 45px 0;
+}
+#features_two .accusan_timer .accusan_timer_details .logo {
+    width: 20%;
+}
+#features_two .accusan_timer .accusan_timer_details .text {
+    width: 80%;
+}
+#features_two .accusan_timer .accusan_timer_details .text h5 {
+    font-size: 13px;
+    font-weight: 600px;               
+    /* font weight is not working */
+}
+#features_two .accusan_timer .accusan_timer_details .text p {
+    font-size: 11px;
+    padding: 19px 0;
+    color: #282528;
+    width: 230px;
+}
+#features_two .accusan_timer .accusan_timer_details .logo i {
+    color: #a9a8a9;
+    font-size: 30px;
+}
+#features_two .accusan_phone .picture {
+    width: 263px;
+}
+#features_two .accusan_phone .picture img {
+    position: absolute;
+}
+#features_two .picture .overlay {
+	position: relative;
+	top: 71px;
+	right: -14px;
+}
+/* features css end */
+/* works css start */
+#works .works_headline h3 {
+    color: #4c76ff;
+    font-weight: 900;
+    display: block;
+    font-size: 28px;
+}
+#work .works_headline .image {
+    width: 100%;
+}
+#works .works_headline img {
+    padding: 25px 0;
+}
+#works .works_headline p {
+    width: 846px;
+    font-size: 14px;
+    color: #282528;
+    margin: auto;
+}
+#works .works_button {
+    padding: 58px 0;
+}
+#works .works_button li button {
+    font-size: 16px;
+    background: none;
+    border: none;
+    font-weight: 900;
+    padding: 5px 27px;
+    transition: 0.5s;
+}
+#works .works_button ul li:hover button {
+    background-color: #4c76ff;
+    color: #fff;
+    border-radius: 8px;
+}
+#works .works_picture .works_image {
+    width: 25%;
+    position: relative;
+}
+#works .works_picture .works_image .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(91, 128, 250, 0.90);
+    inset: 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+#works .works_picture .works_image:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+#works .works_picture .works_image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#works .works_picture .works_image .overlay i {
+    border: 1px solid #fff;
+    padding: 8px 8px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+/* works css end */
+/* meet out team css start */
+#meet_our_team {
+   padding: 95px 0;
+}
+#meet_our_team .meet_headline h3 {
+    font-size: 28px;
+    color: #4c76ff;
+    font-weight: 900;
+    /* fontsize working as banner */
+}
+#meet_our_team .meet_headline .image {
+    width: 100%;
+}
+#meet_our_team .meet_headline img {
+    padding: 25px 0;
+}
+#meet_our_team .meet_headline p {
+    width: 801px;
+    font-size: 14px;
+    color: #282528;
+    margin: auto;
+}
+#meet_our_team .meet_picture {
+    padding: 50px 0 0 0;
+}
+#meet_our_team .meet_picture .meet_img img {
+    margin: 10px 0;
+}
+#meet_our_team .meet_picture .meet_img {
+    position: relative;
+    width: 224px;
+    margin: 0 15px;
+}
+#meet_our_team .meet_picture .meet_img .overlay p {
+    font-size: 11px;
+}
+#meet_our_team .meet_picture .meet_img .overlay {
+    padding: 5px 5px;
+    position: absolute;
+    inset: 10px 0;
+    background-color: rgba(91, 128, 250, 0.90);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    width: 224px;
+    height: 249px;
+    text-align: center;
+}
+#meet_our_team .meet_picture .meet_img:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+#meet_our_team .meet_picture .meet_img .meet_icon {
+    margin: 70px 0 0 0;
+}
+#meet_our_team .meet_picture .meet_img .meet_icon i {
+    background-color: rgba(0, 0, 0, 0.30);
+    padding: 10px 10px;
+}
+#meet_our_team .meet_picture .meet_img h6 {
+    font-weight: 700;
+    text-align: center;
+    transition: 0.1s;
+}
+#meet_our_team .meet_picture .meet_img:hover h6 {
+    color: #0eb493;
+}
+#meet_our_team .meet_picture .meet_img #p {
+    font-size: 11px;
+    color: #062033;
+    text-align: center;
+    padding: 11px 0;
+}
+/* meet_+our_team css end */
+/* fun css start */
+#fun {
+    background: url(../image/banner2.png);
+    height: 448px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    padding: 76px 0;
+}
+#fun h2 {
+    color: #fff;
+}
+#fun::after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #062033;
+    inset: 0;
+    opacity: 0.80;
+    z-index: -1;
+}
+#fun .fun_headline h4 {
+    color: #4c76ff;
+}
+#fun .fun_headline img {
+    display: block;
+    padding: 15px 0;
+    margin: auto;
+}
+#fun .fun_details .details {
+    width: 25%;
+    text-align: center;
+}
+#fun .fun_details .details img {
+    display: block;
+    margin: auto;
+    padding: 38px 0;
+}
+#fun .fun_details .details p {
+    display: block;
+}
+/* fun css end */
+/* discuss css start */
+#discuss {
+    padding: 80px 0;
+}
+#discuss .discuss_headline h3 {
+    color: #4c76ff;
+    font-size: 28px;
+    font-weight: 900;
+}
+#discuss .discuss_headline p {
+    font-family: 'Lato' , sans-serif;
+    color: #282528;
+    padding: 53px 0;
+    font-weight: 100;
+}
+#discuss .discuss_details .location{
+    width: 20%;
+}
+#discuss .discuss_details .location p{
+    color: #062033;
+    padding: 5px 0;
+}
+#discuss .discuss_details .location .loc_link {
+    width: 130px;
+    font-weight: 10px;
+    padding: 32px 0 0 0;
+}
+#discuss .discuss_details .location .loc_link address {
+    font-family: 'Open_sans' , sans-serif;
+    color: #6a737b;
+    font-size: 10px;
+}
+#discuss .discuss_details .location a {
+    color: #6a737b;
+    font-size: 10px;
+}
+#discuss .discuss_details .form {
+    width: 75%;
+}
+#discuss .discuss_details .form h4 {
+    color: #000;
+    font-weight: 700;
+    padding: 0 0 19px 0;
+}
+#discuss .discuss_details .form input {
+    width: 335px;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0 0 17px 0;
+    margin: 0 25px 0 0;
+}
+#discuss .discuss_details .form textarea {
+    width: 700px;
+    height: 50px;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 17px 0 0 0;
+    margin: 20px 0 0 0;
+    display: block;
+}
+#discuss .discuss_details .form button {
+    border: none;
+    background: none;
+    width: 700px;
+    text-align: right;
+    padding: 30px 0 0 0;
+    font-size: 13px;
+}
+#discuss .discuss_details .form button i {
+    color: #6086ff;
+    padding-right: 5px;
+}
+#discuss .discuss_details .icon {
+    width: 5%;
+}
+#discuss .discuss_details .icon i {
+    color: #000;
+    opacity: 20%;
+    font-size: 30px;
+    padding: 4px;
+}
+/* discuss css end */
+#map iframe{
+    border: 0;
+    width: 100%;
+    padding: 0 0 100px 0;
+}
+/* footer css start */
+footer{
+    background-color: #000;
+    height: 250px;
+    font-family: 'lato' , sans-serif;
+    padding: 51px 0;
+}
+footer .footer_details {
+    width: 33.33%;
+}
+footer .footer_details h3 {
+    font-size: 26px;
+    font-weight: 900;
+    color: #fff;
+}
+footer .footer_details p {
+    font-size: 12px;
+    font-weight: 100;
+    width: 240px;
+    padding: 25px 0 0 0;
+    line-height: 23px;
+}
+footer .footer_details h4 {
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+}
+footer .footer_details input {
+    border: none;
+    background: none;
+    width: 80%;
+    color: #fff;
+}
+footer .footer_details .email {
+    width: 245px;
+    height: 40px;
+    border: 1px solid #fff;
+    margin: 45px 0 0 0;
+}
+footer .footer_details .email button {
+    width: 20%;
+    border: none;
+    background: none;
+    color: #fff;
+}
+footer .footer_details .email button i {
+    color: #676869;
+    font-size: 30px;
+}
+footer .footer_details .explore_link {
+    width: 50%;
+}
+footer .footer_details .explore_link a {
+    display: block;
+    padding: 20px 76px 0 0;
+    font-family: 'Open sans' , sans-serif;
+}
